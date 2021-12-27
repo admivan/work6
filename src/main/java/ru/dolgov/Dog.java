@@ -5,7 +5,7 @@ public class Dog extends Animal {
     private final int maxswim=10;
     private static int counter;
 
-    static {
+    {
         counter++;
     }
 

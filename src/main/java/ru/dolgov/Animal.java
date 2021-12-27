@@ -3,7 +3,7 @@ package ru.dolgov;
 public abstract class Animal {
     private static int counter;
 
-    static {
+    {
         counter++;
     }
 

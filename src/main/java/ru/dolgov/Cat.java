@@ -4,7 +4,7 @@ public class Cat extends Animal {
     private final int maxrun = 200;
     private static int counter;
 
-    static {
+    {
         counter++;
     }
 
